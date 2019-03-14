@@ -24,7 +24,6 @@ export const fetchSuccessImages = () => async dispatch => {
   try {
     const response = await axios.get(images);
     dispatch(actions.fetchImagesSuccess(response.data));
-    console.log(response.data);
   } catch (error) {
     dispatch(actions.fetchImagesError(error));
   }
