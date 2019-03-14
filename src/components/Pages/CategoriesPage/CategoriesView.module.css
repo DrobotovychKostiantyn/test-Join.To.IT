@@ -31,6 +31,12 @@
   margin: 0 0 10px 0;
 }
 
+.smallImg {
+  width: 200px;
+  margin: 0 0 10px 0;
+  height: 100px;
+}
+
 .category {
   text-align: center;
 }
