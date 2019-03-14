@@ -1,1 +1,1 @@
-# test-Join.To.IT
+# Script: npm start
